@@ -28,7 +28,7 @@
     B.	In JSX, it is possible to write JavaScript directly. You can do this by putting the JavaScript in curly braces {...}. 
         Whereas in HTML, you need a script tag or an  external JavaScript file to implement JavaScript.
 
-    C.	Tags can self-close in JSX. That is, it is possible to have <div></div> as <div /> and <span></span> as <span />. You don't want to do that, but it’s possible.
+    C.	Tags can self-close in JSX. That is, it is possible to have (<div></div> as <div /> and <span></span> as <span />). You don't want to do that, but it’s possible.
         Self-closing tags in HTML can self-close without the slash before the right angle bracket, that is <br /> could work as <br>. But in JSX, you need to include the slash. This should bring something to mind – JSX heavily relies on HTML 4 syntax.
 
 
